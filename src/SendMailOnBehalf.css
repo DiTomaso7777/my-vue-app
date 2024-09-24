@@ -1,0 +1,109 @@
+/* General container for the form */
+.send-mail-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* General form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus,
+  textarea:focus {
+    border-color: #0078d4;
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 120, 212, 0.5);
+  }
+  
+  /* Styling for the textarea */
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  /* Send button styling */
+  .send-button {
+    background-color: #0078d4;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .send-button:hover {
+    background-color: #005a9e;
+  }
+  
+  .send-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Success and error messages */
+  .success-message {
+    color: #4caf50;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .error-message {
+    color: #f44336;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  /* Navigation links */
+  nav {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #0078d4;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
