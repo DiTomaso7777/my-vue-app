@@ -26,6 +26,8 @@ function App() {
     window.location.reload();
   };
 
+  const title = activeAccount ? activeAccount.name : 'My App';
+
   return (
     <Router>
       <div className="card">
@@ -33,8 +35,7 @@ function App() {
           {activeAccount ? (
             <>
               <button onClick={handleLogoutRedirect}>Logout</button>
-              <p>You are signed in!</p>
-
+              <p>You are signed in as {title}</p>
               {/* Navigation Links */}
               <nav>
                 <Link to="/contacts">View Contacts</Link> |{' '}
