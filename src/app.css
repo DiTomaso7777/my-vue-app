@@ -34,7 +34,7 @@
 }
 
 .card {
-  background: linear-gradient(to bottom, #207ee9, #FFFFFF);
+  background: linear-gradient(to top, #207ee9, #FFFFFF);
   padding: 2em;
   border-radius: 5px; /* Optional rounded corners */
 }
